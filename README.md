@@ -10,8 +10,8 @@
 * libusb 1.0
 
 ## Usage
-rde2013ctl set wheel-light on|off - Turns LED illumination of the mouse wheel on or off.
-rde2013ctl set logo-light on|off - Turns LED illumination of the logo on or off.
+* rde2013ctl set wheel-light on|off - Turns LED illumination of the mouse wheel on or off.
+* rde2013ctl set logo-light on|off - Turns LED illumination of the logo on or off.
 
 ## License
 
