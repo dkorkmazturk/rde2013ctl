@@ -6,7 +6,7 @@
 
 // RAII Style, noncopyable, singleton wrapper for needed libusb functionality
 
-enum class Command {TURN_WHEEL_LIGHT_ON, TURN_WHEEL_LIGHT_OFF, TURN_LOGO_LIGHT_ON, TURN_LOGO_LIGHT_OFF};
+enum class Command {TURN_WHEEL_LIGHT_ON, TURN_WHEEL_LIGHT_OFF, TURN_LOGO_LIGHT_ON, TURN_LOGO_LIGHT_OFF, POLLING_RATE_125HZ, POLLING_RATE_500HZ, POLLING_RATE_1000HZ};
 
 class RDE2013
 {
@@ -26,7 +26,6 @@ private:
 public:
     static RDE2013 &getInstance();
     void sendCommand(const Command &command);
-
 };
 
 #endif // RDE2013_H

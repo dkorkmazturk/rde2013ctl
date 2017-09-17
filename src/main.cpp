@@ -41,6 +41,16 @@ Command processArgs(const std::vector<std::string> &args)
                 else if(args[2] == "off")
                     return Command::TURN_LOGO_LIGHT_OFF;
             }
+
+            else if(args[1] == "polling-rate")
+            {
+                if(args[2] == "1000")
+                    return Command::POLLING_RATE_1000HZ;
+                else if(args[2] == "500")
+                    return Command::POLLING_RATE_500HZ;
+                else if(args[2] == "125")
+                    return Command::POLLING_RATE_125HZ;
+            }
         }
     }
 
