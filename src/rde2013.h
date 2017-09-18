@@ -6,7 +6,7 @@
 
 // RAII Style, noncopyable, singleton wrapper for needed libusb functionality
 
-enum class Command {TURN_WHEEL_LIGHT_ON, TURN_WHEEL_LIGHT_OFF, TURN_LOGO_LIGHT_ON, TURN_LOGO_LIGHT_OFF, POLLING_RATE_125HZ, POLLING_RATE_500HZ, POLLING_RATE_1000HZ};
+enum class Command {TURN_WHEEL_LIGHT_ON, TURN_WHEEL_LIGHT_OFF, TURN_LOGO_LIGHT_ON, TURN_LOGO_LIGHT_OFF};
 
 class RDE2013
 {
