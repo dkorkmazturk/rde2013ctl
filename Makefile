@@ -4,6 +4,7 @@ TARGET	= rde2013ctl
 # Source and Build directories
 OUTDIR	= build
 SRCDIR	= src
+INSDIR	= /usr/bin
 
 # Binaries
 CC 	= g++
@@ -32,4 +33,10 @@ $(OUTDIR):
 clean:
 	$(RM) $(OUTDIR)
 
-.PHONY: all clean
+install:
+	install -m 755 $(OUTDIR)/$(TARGET) $(INSDIR)/$(TARGET)
+
+unistall:
+	$(RM) $(INSDIR)/$(TARGET)
+
+.PHONY: all clean install uninstall
