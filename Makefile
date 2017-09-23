@@ -36,7 +36,7 @@ clean:
 install:
 	install -m 755 $(OUTDIR)/$(TARGET) $(INSDIR)/$(TARGET)
 
-unistall:
+uninstall:
 	$(RM) $(INSDIR)/$(TARGET)
 
 .PHONY: all clean install uninstall
