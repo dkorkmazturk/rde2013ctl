@@ -3,15 +3,19 @@
 **rde2013ctl** is a CLI tool for controling the features of Razer DeathAdder 2013 mice on GNU/Linux systems.
 
 ## Built With
-* [libusb](http://libusb.info/) - Cross-platform C library that provides access to USB devices.
-* [Wireshark](https://www.wireshark.org/) - For USB packet sniffing.
+* [libusb](http://libusb.info/) — Cross-platform C library that provides access to USB devices.
+* [Wireshark](https://www.wireshark.org/) — For USB packet sniffing.
 
 ## Dependencies
 * libusb 1.0
 
+## Install & Unistall
+`make && sudo make install` — Installs *rde2013ctl* under /usr/bin (You can change installiation directory in MAKEFILE)
+`sudo make unistall` — Uninstalls *rde2013ctl* from /usr/bin
+
 ## Usage
-* rde2013ctl set wheel-light on|off - Turns LED illumination of the mouse wheel on or off.
-* rde2013ctl set logo-light on|off - Turns LED illumination of the logo on or off.
+* rde2013ctl set wheel-light *on* | *off* — Turns LED illumination of the mouse wheel on or off.
+* rde2013ctl set logo-light *on* | *off* — Turns LED illumination of the logo on or off.
 
 ## License
 
