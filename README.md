@@ -9,7 +9,7 @@
 ## Dependencies
 * libusb 1.0
 
-## Install & Unistall
+## Install & Uninstall
 `make && sudo make install` — Installs *rde2013ctl* under /usr/bin (You can change installiation directory in MAKEFILE)
 `sudo make unistall` — Uninstalls *rde2013ctl* from /usr/bin
 
