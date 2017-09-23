@@ -10,8 +10,8 @@
 * libusb 1.0
 
 ## Install & Uninstall
-`make && sudo make install` — Installs *rde2013ctl* under /usr/bin (You can change installiation directory in MAKEFILE)
-`sudo make uninstall` — Uninstalls *rde2013ctl* from /usr/bin
+* `make && sudo make install` — Installs *rde2013ctl* under /usr/bin (You can change installiation directory in MAKEFILE)
+* `sudo make uninstall` — Uninstalls *rde2013ctl* from /usr/bin
 
 ## Usage
 * rde2013ctl set wheel-light *on* | *off* — Turns LED illumination of the mouse wheel on or off.
