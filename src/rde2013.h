@@ -12,8 +12,8 @@ class RDE2013
 {
 private:
     explicit RDE2013();
-    RDE2013(const RDE2013 &) {}
-    RDE2013& operator=(const RDE2013 &) {}
+    RDE2013(const RDE2013 &) = delete;
+    RDE2013& operator=(const RDE2013 &) = delete;
     ~RDE2013();
 
     void sendCommand(unsigned char * const command);
