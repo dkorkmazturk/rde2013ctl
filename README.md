@@ -1,6 +1,6 @@
 # rde2013ctl
 
-**rde2013ctl** is a CLI tool for controling the features of Razer DeathAdder 2013 mice on GNU/Linux systems.
+**rde2013ctl** is a CLI tool for controlling the features of Razer DeathAdder 2013 mice on GNU/Linux systems.
 
 ## Built With
 * [libusb](http://libusb.info/) — Cross-platform C library that provides access to USB devices.
@@ -22,4 +22,4 @@
 This project is licensed under the GPLv3 License - see the LICENSE.md file for details.
 
 ## Scope of the Project
-Scope of this project is limited to Razer DeathAdder 2013 mice. This is the only Razer product that I have and I wanted to create a simple tool to control it's features. If you are looking support for other Razer devices, you could take a look at [razercfg](https://github.com/mbuesch/razer) project.
+Scope of this project is limited to Razer DeathAdder 2013 mice. This is the only Razer product that I have and I wanted to create a simple tool to control its features. If you are looking support for other Razer devices, you could take a look at [razercfg](https://github.com/mbuesch/razer) project.
